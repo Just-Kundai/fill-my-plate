@@ -11,6 +11,7 @@ function LogInForm() {
   };
 
   return (
+  <div className="login_form">
     <form onSubmit={handleSubmit}>
       <label>
         Email:
@@ -30,6 +31,7 @@ function LogInForm() {
       </label>
       <button type="submit">Login</button>
     </form>
+  </div>
   );
 }
 

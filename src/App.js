@@ -1,5 +1,6 @@
 import React from 'react';
 import LogInForm from './Components/Authentication/LogInForm';
+import './App.css';
 
 function App() {
   return (
