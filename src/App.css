@@ -5,3 +5,19 @@
   border: 1px solid rgba(0,0,0,0,2);
   padding: inherit;
 }
+
+.registration_form{
+  color: hotpink;
+  font-size: 25px;
+  font-weight: bold;
+  border: 1px solid rgba(0,0,0,0,2);
+  padding: inherit;
+}
+
+.h2{
+  color: hotpink;
+  font-size: 25px;
+  font-weight: bold;
+  border: 1px solid rgba(0,0,0,0,2);
+  padding: inherit;
+}
