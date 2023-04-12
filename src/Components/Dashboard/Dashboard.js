@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import FoodTracker from './FoodTracker';
-import ExerciseTracker from './ExerciseTracker';
+import FoodTracker from '../FoodTracker/FoodTracker';
+import ExerciseTracker from '../ExerciseTracker/ExerciseTracker';
 
 const Dashboard = () => {
   const [caloriesConsumed, setCaloriesConsumed] = useState(0);
