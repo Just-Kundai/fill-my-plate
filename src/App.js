@@ -11,6 +11,10 @@ function App() {
       <LogInForm />
       <RegistrationForm />
 
+      <div className="Dashboard">
+      <Dashboard />
+      </div>
+
 
     </div>
   );
