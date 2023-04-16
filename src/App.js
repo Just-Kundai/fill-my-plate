@@ -1,4 +1,7 @@
 import React from 'react';
+import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
+
+
 import LogInForm from './Components/Authentication/LogInForm';
 import RegistrationForm from './Components/Authentication/RegistrationForm';
 import Dashboard from './Components/Dashboard/Dashboard';
@@ -7,21 +10,20 @@ import './App.css';
 
 function App() {
   return (
-    <div>
+   <Router>
 
-      <LogInForm />
-      <RegistrationForm />
-
-      <div className="Dashboard">
-      <Dashboard />
-      </div>
-
-      <div className="ExerciseTracker">
-      <ExerciseTracker />
-      </div>
+     <div>
+       <Switch>
+        <Route exact path="/" component={LogInForm} />
+        <Route exact path="/registrationform" component={RegistrationForm} />
+        <Route exact path="/dashboard" component={Dashboard}/>
+        <Route exact path ="/exercisetracker" component={ExerciseTracker}/>
+       </Switch>
+     </div>
 
 
-    </div>
+    </Router>
+
   );
 }
 
