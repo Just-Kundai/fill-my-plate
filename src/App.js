@@ -6,6 +6,7 @@ import LogInForm from './Components/Authentication/LogInForm';
 import RegistrationForm from './Components/Authentication/RegistrationForm';
 import Dashboard from './Components/Dashboard/Dashboard';
 import ExerciseTracker from './Components/ExerciseTracker/ExerciseTracker';
+import FeedbackForm from './Components/Feedback/FeedbackForm';
 import './App.css';
 
 function App() {
