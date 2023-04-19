@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import NutrientBreakdown from './Components/Nutrient Breakdown/NutrientBreakdown'
 import axios from 'axios';
 
 const FoodSearch = () => {

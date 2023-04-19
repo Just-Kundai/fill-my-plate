@@ -7,6 +7,7 @@ import RegistrationForm from './Components/Authentication/RegistrationForm';
 import Dashboard from './Components/Dashboard/Dashboard';
 import ExerciseTracker from './Components/ExerciseTracker/ExerciseTracker';
 import FeedbackForm from './Components/Feedback/FeedbackForm';
+import NutrientBreakdown from './Components/Nutrient Breakdown/NutrientBreakdown'
 import './App.css';
 
 function App() {
