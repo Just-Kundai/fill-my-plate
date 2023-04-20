@@ -31,7 +31,25 @@ function App() {
 
     </Router>
 
+
+
   );
+
+  function FoodTracker() {
+    return (
+      <div>
+        // Component code here
+      </div>
+    );
+  }
+
+  function FoodSearch() {
+    return (
+      <div>
+        // Component code here
+      </div>
+    );
+  }
 }
 
 export default App
