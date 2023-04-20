@@ -12,9 +12,15 @@ import './App.css';
 
 function App() {
   return (
-   <Router>
 
-     <div>
+    <div className="food_tracker">
+      <FoodTracker />
+      <FoodSearch />
+    </div>
+
+
+   <Router>
+     <div className ="urls">
        <Switch>
         <Route exact path="/" component={LogInForm} />
         <Route exact path="/registrationform" component={RegistrationForm} />
@@ -23,33 +29,14 @@ function App() {
         <Route exact path="/feedback" component={FeedbackForm}/>
         <Route exact path ="/foodtracker" component={FoodTracker}/>
         <Route exact path="/foodsearch" component={FoodSearch}/>
-
-
        </Switch>
      </div>
-
-
     </Router>
-
 
 
   );
 
-  function FoodTracker() {
-    return (
-      <div>
-        // Component code here
-      </div>
-    );
-  }
 
-  function FoodSearch() {
-    return (
-      <div>
-        // Component code here
-      </div>
-    );
-  }
 }
 
 export default App
