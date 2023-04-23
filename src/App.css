@@ -70,3 +70,32 @@
 }
 
 .profile-container form button:hover
+
+.settings {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.settings h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.setting {
+  margin-bottom: 10px;
+}
+
+.setting label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.setting input[type="number"] {
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  width: 80px;
+}

@@ -9,7 +9,9 @@ import ExerciseTracker from './Components/ExerciseTracker/ExerciseTracker';
 import FeedbackForm from './Components/Feedback/FeedbackForm';
 import NutrientBreakdown from './Components/Nutrient Breakdown/NutrientBreakdown'
 import Profile from './Components/Profile/Profile'
+import Settings from './Components/Settings/Settings'
 import './App.css';
+
 function App() {
   return (
   <div>
@@ -24,6 +26,7 @@ function App() {
         <Route exact path ="/foodtracker" component={FoodTracker}/>
         <Route exact path="/foodsearch" component={FoodSearch}/>
         <Route exact path="/profile" component={Profile}/>
+        <Route exact path="/settings" component={Settings}/>
       </Switch>
     </Router>
   </div>
