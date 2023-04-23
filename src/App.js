@@ -8,16 +8,11 @@ import Dashboard from './Components/Dashboard/Dashboard';
 import ExerciseTracker from './Components/ExerciseTracker/ExerciseTracker';
 import FeedbackForm from './Components/Feedback/FeedbackForm';
 import NutrientBreakdown from './Components/Nutrient Breakdown/NutrientBreakdown'
+import Profile from './Components/Profile/Profile'
 import './App.css';
-
 function App() {
   return (
   <div>
-
-
-
-
-
 
     <Router>
       <Switch>
@@ -28,6 +23,7 @@ function App() {
         <Route exact path="/feedback" component={FeedbackForm}/>
         <Route exact path ="/foodtracker" component={FoodTracker}/>
         <Route exact path="/foodsearch" component={FoodSearch}/>
+        <Route exact path="/profile" component={Profile}/>
       </Switch>
     </Router>
   </div>
