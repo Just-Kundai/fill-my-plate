@@ -250,3 +250,166 @@ button.delete-button {
 button.delete-button:hover {
   background-color: #e53935;
 }
+
+.nutrient-breakdown-container {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.nutrient-breakdown-container ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nutrient-breakdown-container li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.nutrient-breakdown-container p {
+  font-size: 16px;
+  font-style: italic;
+  color: #888;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.profile h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.profile form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile label {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.profile input,
+.profile select {
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.profile select {
+  width: 100%;
+}
+
+.profile button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #008CBA;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.profile button:hover {
+  background-color: #006F8C;
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+}
+
+.feedback-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.feedback-form label {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.feedback-form input,
+.feedback-form select,
+.feedback-form textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.feedback-form button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #0077c2;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.feedback-form button[type="submit"]:hover {
+  background-color: #005daa;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+select {
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
