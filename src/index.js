@@ -4,7 +4,7 @@ import './App.css';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Dashboard from './Components/Dashboard';
+import Dashboard from './Components/Dashboard/Dashboard';
 
 ReactDOM.render(
   <Dashboard/>,
