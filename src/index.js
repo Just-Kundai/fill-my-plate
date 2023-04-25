@@ -1,13 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 import ReactDOM from 'react-dom';
 import './App.css';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Dashboard from './Components/Dashboard';
 
 ReactDOM.render(
-  <FoodTracker className="food-tracker" />,
+  <Dashboard/>,
   document.getElementById('root')
 )
 
