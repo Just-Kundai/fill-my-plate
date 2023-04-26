@@ -4,10 +4,10 @@ import './App.css';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Dashboard from './Components/Dashboard/Dashboard';
+import Authentication from './Components/Authentication/RegistrationForm';
 
 ReactDOM.render(
-  <Dashboard/>,
+  <Authentication/>,
   document.getElementById('root')
 )
 
