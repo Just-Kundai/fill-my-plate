@@ -26,7 +26,7 @@ const Settings = () => {
     <div className="settings">
       <h2>Settings</h2>
       <div className="setting">
-        <label htmlFor="calorie-goal">Calorie Goal:</label>
+        <label htmlFor="calorie-goal">Calorie Target:</label>
         <input
           id="calorie-goal"
           type="number"
@@ -35,7 +35,7 @@ const Settings = () => {
         />
       </div>
       <div className="setting">
-        <label htmlFor="protein-goal">Protein Goal:</label>
+        <label htmlFor="protein-goal">Protein Target:</label>
         <input
           id="protein-goal"
           type="number"
